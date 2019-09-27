@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		616905791DFE7209001BB03B /* 基本控件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "基本控件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616905791DFE7209001BB03B /* nscollectionview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nscollectionview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6169057C1DFE7209001BB03B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6169057D1DFE7209001BB03B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		616905801DFE7209001BB03B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		6169057A1DFE7209001BB03B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				616905791DFE7209001BB03B /* 基本控件.app */,
+				616905791DFE7209001BB03B /* nscollectionview.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 			);
 			name = "基本控件";
 			productName = "基本控件";
-			productReference = 616905791DFE7209001BB03B /* 基本控件.app */;
+			productReference = 616905791DFE7209001BB03B /* nscollectionview.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,6 +124,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -271,7 +272,7 @@
 				INFOPLIST_FILE = "基本控件/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wanglei.----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = nscollectionview;
 			};
 			name = Debug;
 		};
@@ -283,7 +284,7 @@
 				INFOPLIST_FILE = "基本控件/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wanglei.----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = nscollectionview;
 			};
 			name = Release;
 		};

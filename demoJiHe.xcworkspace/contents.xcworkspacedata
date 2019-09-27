@@ -1195,9 +1195,6 @@
          <FileRef
             location = "group:AppDelegate.h">
          </FileRef>
-         <FileRef
-            location = "group:newWindowStoryboard.m">
-         </FileRef>
          <Group
             location = "group:Assets.xcassets"
             name = "Assets.xcassets">
@@ -1211,6 +1208,12 @@
          </Group>
          <FileRef
             location = "group:ModeWindow.m">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/jiqiren/Desktop/&#x534f;&#x8baf;&#x4ea4;&#x63a5;&#x6587;&#x4ef6;/macOS_&#x57fa;&#x672c;&#x63a7;&#x4ef6;&#x4f7f;&#x7528;/&#x6a21;&#x6001;&#x7a97;&#x53e3; copy/&#x6a21;&#x6001;&#x7a97;&#x53e3;/ModeWindow.h">
+         </FileRef>
+         <FileRef
+            location = "group:ModeWindow.xib">
          </FileRef>
          <Group
             location = "group:Base.lproj"
@@ -1229,13 +1232,10 @@
             location = "group:newWindowStoryboard.h">
          </FileRef>
          <FileRef
+            location = "group:newWindowStoryboard.m">
+         </FileRef>
+         <FileRef
             location = "group:AppDelegate.m">
-         </FileRef>
-         <FileRef
-            location = "group:ModeWindow.xib">
-         </FileRef>
-         <FileRef
-            location = "group:ModeWindow.h">
          </FileRef>
          <FileRef
             location = "group:Info.plist">
